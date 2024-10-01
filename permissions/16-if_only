@@ -1,0 +1,6 @@
+#!/bin/bash
+
+# Check if the owner of the file 'hello' is 'guillaume'
+if [ "$(stat -c %U hello)" = "guillaume" ]; then
+    sudo chown vincent hello  # Change owner to 'vincent'
+fi

@@ -1,0 +1,2 @@
+#!/bin/bash
+cut id ':' -f 1,

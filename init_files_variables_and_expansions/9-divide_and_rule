@@ -1,0 +1,2 @@
+#!/bin/bash
+results=$((POWER / DIVIDE)) | echo "$results"

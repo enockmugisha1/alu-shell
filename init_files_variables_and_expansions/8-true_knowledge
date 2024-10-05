@@ -1,2 +1,2 @@
 #!/bin/bash
-x= $(( 128 + TRUEKNOWLEDGE )) | echo "$x"
+x=$((128 + TRUEKNOWLEDGE)) | echo "$x"

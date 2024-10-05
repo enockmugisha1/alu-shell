@@ -1,2 +1,2 @@
 #!/bin/bash
-result=$((128 + TRUEKNOWLEDGE))
+x= $(( 128 + TRUEKNOWLEDGE )) | echo "$x"

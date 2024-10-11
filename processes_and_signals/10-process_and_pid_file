@@ -8,7 +8,7 @@
 #+  receiving a SIGQUIT or SIGTERM.
 
 terminator() {
- touch /var/run/myscript.pid
+rm /var/run/myscript.pid
   exit
 }
 
